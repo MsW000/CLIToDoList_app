@@ -1,0 +1,11 @@
+CREATE TABLE tasks (
+    id SERIAL PRIMARY KEY,
+    login TEXT,
+    name TEXT,
+    city TEXT,
+    question TEXT
+    priority TEXT,
+    done BOOLEAN DEFAULT FALSE
+    description TEXT NOT NULL,
+    done BOOLEAN DEFAULT FALSE
+);
